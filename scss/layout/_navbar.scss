@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+
+  &_logo {
+    color: rgba(255, 99, 71, 0.481);
+    cursor: pointer;
+    &:hover {
+      color: rgba(226, 224, 224, 0.462);
+    }
+  }
+
+  &__ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    list-style-type: none;
+
+    &--list {
+      text-transform: uppercase;
+      &-link {
+        color: rgba(172, 255, 47, 0.582);
+        text-decoration: none;
+        &:hover {
+          color: rgba(226, 224, 224, 0.462);
+        }
+        &:active {
+          color: rgba(172, 255, 47, 0.582);
+        }
+      }
+    }
+  }
+}
